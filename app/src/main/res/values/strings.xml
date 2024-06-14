@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GymPro</string>
+    <string name="checkBoxRememberMe">Remember Me</string>
+    <string name="textViewSignUp">Not yet register? Sign Up</string>
 </resources>
