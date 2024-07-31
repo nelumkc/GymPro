@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercise_types">
+        <item>Exercise Type</item>
+        <item>cardio</item>
+        <item>strength</item>
+        <item>stretching</item>
+        <item>plyometrics</item>
+        <item>powerlifting</item>
+        <item>strongman</item>
+    </string-array>
+    <string-array name="muscle_groups">
+        <item>Muscle Group</item>
+        <item>abdominals</item>
+        <item>abductors</item>
+        <item>adductors</item>
+        <item>biceps</item>
+        <item>calves</item>
+        <item>chest</item>
+        <item>forearms</item>
+        <item>glutes</item>
+        <item>hamstrings</item>
+        <item>lats</item>
+        <item>lower back</item>
+        <item>middle back</item>
+        <item>neck</item>
+        <item>quadriceps</item>
+        <item>traps</item>
+        <item>triceps</item>
+    </string-array>
+    <string-array name="difficulty_levels">
+        <item>Difficulty Level</item>
+        <item>beginner</item>
+        <item>intermediate</item>
+        <item>expert</item>
+    </string-array>
+</resources>
+

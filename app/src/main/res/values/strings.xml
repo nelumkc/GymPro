@@ -2,4 +2,16 @@
     <string name="app_name">GymPro</string>
     <string name="checkBoxRememberMe">Remember Me</string>
     <string name="textViewSignUp">Not yet register? Sign Up</string>
+    <string name="bottom_Workout">Workout</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_Messages">Workout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exercise_type_prompt">Select Exercise Type</string>
+    <string name="muscle_group_prompt">Select Muscle Group</string>
+    <string name="difficulty_level_prompt">Select Difficulty Level</string>
+    <string name="level_icon" />
+    <string name="category_icon" />
+    <string name="equipment_icon" />
+    <string name="feature_image" />
 </resources>

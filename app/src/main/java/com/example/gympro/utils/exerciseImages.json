@@ -1,0 +1,19 @@
+{
+  "exercises": [
+    {
+      "name": "Incline Hammer Curls",
+      "hash_code": "64578",
+      "image_url": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif"
+    },
+    {
+      "name": "Wide-grip barbell curl",
+      "hash_code": "64578",
+      "image_url": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif"
+    },
+    {
+      "name": "Waiter Curl",
+      "hash_code": "64578",
+      "image_url": "https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif"
+    }
+  ]
+}

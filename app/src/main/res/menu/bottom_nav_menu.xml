@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottom_home" />
+    <item
+        android:id="@+id/bottom_workout"
+        android:contentDescription="@string/bottom_Messages"
+        android:icon="@drawable/baseline_fitness_center_24"
+        android:title="Workout" />
+    <item
+        android:id="@+id/bottom_diet"
+        android:contentDescription="Diet"
+        android:icon="@drawable/baseline_set_meal_24"
+        android:title="Diet" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:contentDescription="Profile"
+        android:icon="@drawable/baseline_person_outline_24"
+        android:title="Profile" />
+
+
+</menu>

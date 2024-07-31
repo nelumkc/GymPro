@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Body parameters"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="For the correct selection of weights, please fill the following data:"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/llWeight"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/tvInstruction"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/weight_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR WEIGHT:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgWeight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/weight_background" />
+
+        <NumberPicker
+            android:id="@+id/npWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llHeight"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/llWeight"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/height_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR HEIGHT:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgHeight"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/height_background" />
+
+        <NumberPicker
+            android:id="@+id/npHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAge"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/llHeight"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:background="@drawable/age_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR AGE:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgAge"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/age_background" />
+
+        <NumberPicker
+            android:id="@+id/npAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llAge"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:text="CONTINUE" />
+
+</RelativeLayout>
